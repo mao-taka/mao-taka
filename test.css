@@ -1,0 +1,157 @@
+@charset "UTF-8";
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.container{
+    width:1170px;
+    margin:0 auto;
+    
+}
+header{
+    height:60px;
+    background-color: rgb(48, 53, 48);
+    position: fixed;
+    top:0;
+    width: 100%;
+    opacity: .8;
+
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    line-height:60px;
+}
+.header-left img{
+    vertical-align: middle;
+    width:124px;
+}
+.login{
+    background-color: rgb(126, 123, 123, 0.6);
+    display: inline-block;
+    color:#fff;
+    padding:0 20px;
+    transition: all .3s;
+}
+.login:hover{
+    background:rgba(255, 255, 255, 0.5);;
+}
+.top{
+   
+    background-image:url(https://prog-8.com/images/html/advanced/top.png);
+    background-size: cover;
+    padding: 180px 0 100px 0;
+    text-align: center;
+    color: #fff;
+}
+.top h1{
+    opacity: .7;
+    letter-spacing: 5px;
+}
+.top p{
+    opacity: .7;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn{
+    color: #fff;
+    padding: 5px 14px ;
+    border-radius: 4px;
+    opacity: .7;
+}
+.btn:hover{
+    opacity: 10;
+}
+.signup{
+    background-color: rgb(115, 190, 115);
+}
+.facebook{
+    background-color: rgb(24, 47, 121);
+    margin-right: 10px;
+}
+.twitter{
+    background-color: rgb(114, 159, 250);
+}
+.fa{
+    margin-right: 10px;
+}
+.lesson-wrapper{
+    background-color:#f7f7f7;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.lesson-head h2{
+    font-weight: normal;
+    color: rgb(143, 140, 140);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.lessons{
+    display: flex;
+    
+}
+.lesson{
+    margin-left: 30px;
+    width: 100%;
+}
+.icon{
+    position:relative;
+   
+}
+.icon p{
+    position: absolute;
+    color:rgb(194, 191, 191);
+    top: 100px;
+   left:100px;
+    transform: translate(-50%, -50%);
+}
+.lesson-text{
+    width: 80%;
+    color: rgb(201, 193, 193);
+    margin-top: 15px;
+    font-size: 14px;;
+}
+.message-wrapper{
+    text-align: center;
+    padding: 80px 0;
+}
+.message-wrapper h2{
+    font-weight: normal;
+}
+.message-btn{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 12px 40px;
+    background-color:#5dca88;
+    box-shadow: 0 7px #1a7940;
+}
+.message-btn:active{
+    box-shadow: none;
+    position:relative;
+    top:9px;
+}
+footer{
+    border-top: 1px solid #eee;
+    padding: 30px 0;
+}
+footer img{
+    width:124px;
+}
+footer p{
+    font-size: 14px;
+    color: rgb(150, 146, 146);
+}
